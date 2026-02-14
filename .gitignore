@@ -1,0 +1,8 @@
+# OS
+.DS_Store
+
+# Database Configuration
+db_config.php
+
+# Word Doc
+Getting Started with LAMP.docx
