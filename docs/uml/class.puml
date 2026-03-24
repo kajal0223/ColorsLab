@@ -1,0 +1,25 @@
+@startuml
+title ColorsLab Conceptual Diagram
+
+class User {
+  + ID : int
+  + FirstName : string
+  + LastName : string
+  + Login : string
+  + Password : string
+  --
+  + doLogin()
+  + doLogout()
+}
+
+class Color {
+  + ID : int
+  + Name : string
+  + UserID : int
+  --
+  + addColor()
+  + searchColor()
+}
+
+User "1" -- "0..*" Color : owns >
+@enduml
