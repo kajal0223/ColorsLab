@@ -8,6 +8,7 @@ The COLORS application is a personalized color management tool that demonstrates
 -	**Database**: MySQL for data storage of users and colors
 -	**Web Server**: Apache running on an Ubuntu Linux server
 - **Security**: MD5 hashing for client-side password protection
+- **Documentation**: PlantUML for system architecture diagrams (Use Case, Activity, and Class)
 
 ## High-level Setup Instructions
 ## Phase 1: Digital Ocean + Lamp
@@ -145,7 +146,7 @@ Once the API is verified, upload the user interface files to the web root:
 ## AI Assistance Disclosure
 This project was developed with assistance from generative AI tools:
 - **Tool**: Gemini 3
-- **Dates**: February 13-14, 2026
+- **Dates**: February 13-14, 2026, March 24, 2026
 - **Scope**: Assisting with GitHub repository organization, frontend logic refinement, and `README` documentation for the COLORS Lab project
 - **Use**:
   
@@ -154,3 +155,5 @@ This project was developed with assistance from generative AI tools:
 2. Assisted in drafting the project description and setup instructions 
 
 3. Provided step-by-step instructions for adding a `LICENSE` file and organizing the `public/` and `api/` directory structure
+
+4. Assisted in drafting PlantUML source file code for UML diagrams
