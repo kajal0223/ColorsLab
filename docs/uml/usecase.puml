@@ -1,0 +1,15 @@
+@startuml
+left to right direction
+actor "Web User" as User
+package "ColorsLab Application" {
+  usecase "Login" as UC1
+  usecase "Add Color" as UC2
+  usecase "Search Color" as UC3
+  usecase "Log Out" as UC4
+}
+
+User --> UC1
+User --> UC2
+User --> UC3
+User --> UC4
+@enduml
