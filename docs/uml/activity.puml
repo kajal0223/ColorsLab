@@ -1,0 +1,29 @@
+@startuml
+start
+:User enters Username and Password;
+:Click "Do It" button;
+
+if (Credentials match database?) then (no)
+  :Display "User/Password combination incorrect";
+  stop
+else (yes)
+  :Redirect to color.html;
+  repeat
+    :User interacts with Dashboard;
+    if (Action taken?) then (Add Color)
+      :User enters Color Name;
+      :Click "Add Color";
+      :System saves Color to database;
+      :Update Color List;
+    else (Search Color)
+      :User enters Search Term;
+      :System filters Colors from database;
+      :Display Search Results;
+    endif
+  backward:Continue managing colors;
+  repeat while (User clicks Log Out?) is (no)
+  ->yes;
+  :Redirect to index.html;
+  stop
+endif
+@enduml
