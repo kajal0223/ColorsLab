@@ -1,0 +1,30 @@
+{
+  "name": "colorslab",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "The COLORS application is a personalized color management tool that demonstrates a full LAMP (Linux, Apache, MySQL, PHP) stack integration. It features a secure user login system that allows individuals to maintain their personal list of colors. Implemented features include account authentication, the ability to search for specific colors within a user's list, and functionality to add new colors directly to the database.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kajal0223/ColorsLab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kajal0223/ColorsLab/issues"
+  },
+  "homepage": "https://github.com/kajal0223/ColorsLab#readme",
+  "devDependencies": {
+    "eslint": "^10.2.0",
+    "htmlhint": "^1.9.2",
+    "stylelint": "^17.6.0",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+name: Colors CI
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install
+
+      - name: Lint HTML
+        run: npx htmlhint "public/**/*.html"
+
+      - name: Lint CSS
+        run: npx stylelint "public/css/**/*.css"
+
+      - name: Lint JS
+        run: npx eslint "public/js/**/*.js"
