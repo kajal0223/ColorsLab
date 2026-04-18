@@ -146,7 +146,7 @@ Once the API is verified, upload the user interface files to the web root:
 ## AI Assistance Disclosure
 This project was developed with assistance from generative AI tools:
 - **Tool**: Gemini 3
-- **Dates**: February 13-14, 2026, March 24, 2026, April 4, 2026
+- **Dates**: February 13-14, 2026, March 24, 2026, April 4, 2026, April 18, 2026
 - **Scope**: Assisting with GitHub repository organization, frontend logic refinement, and `README` documentation for the COLORS Lab project
 - **Use**:
   
@@ -159,3 +159,5 @@ This project was developed with assistance from generative AI tools:
 4. Assisted in drafting PlantUML source file code for UML diagrams
 
 5. Assisted in GitHub Actions CI pipeline and debugging workflow runs
+
+6. Assisted in implementing unit/integration tests with jest

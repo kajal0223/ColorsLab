@@ -19,3 +19,8 @@ jobs:
 
       - name: Lint JS
         run: npx eslint "public/js/**/*.js"
+
+      - name: Run Tests
+        run: npm test
+
+    
